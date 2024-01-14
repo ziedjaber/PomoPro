@@ -1,0 +1,49 @@
+/* src/components/Navbar.css */
+.h1{
+  color: #fff;
+  margin-bottom: 0.5rem;
+  font-size: 1.75rem;
+}
+.header {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+  }
+  h1 {
+    font-size: 1.5rem; /* Add your desired font size */
+    color: #fff; /* Add your desired text color */
+    margin: 0; /* Remove default margin */
+    text-decoration: none; /* Remove underline from anchor */
+  }
+  
+  h1 a {
+    color: #fff; /* Set the color for the anchor within h1 */
+    text-decoration: none; /* Remove underline */
+  }  
+  .icons i {
+    margin-right: 10px;
+    color: #fff;
+  }
+  
+  .login,
+  .signup {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 8px; /* Adjust margin values to control spacing */
+    cursor: pointer;
+  }
+  
+  .login:hover,
+  .signup:hover {
+    opacity: 0.8;
+  }
+  
