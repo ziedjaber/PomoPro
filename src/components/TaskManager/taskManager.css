@@ -77,9 +77,9 @@ html {
   background: rgb(17 166 131);
   color: rgb(255 255 255);
   border-radius: 6px;
-  padding: 16px 32px;
+  padding: 14px 32px;
   border: none;
-  font-size: 18px;
+  font-size: 16px;
   letter-spacing: 1px;
   margin: auto;
   display: flex;
@@ -157,9 +157,10 @@ html {
     background-color: #4CAF50;
     color: white;
     border: none;
-    padding: 10px 20px;
-    font-size: 1rem;
+    padding: 12px 20px; /* Increase padding for better spacing */
+    font-size: 16px; /* Adjust font size for better readability */
     cursor: pointer;
+    border-radius: 4px; /* Add a slight border-radius for a softer look */
   }
   
   /* Media Query for smaller screens */
@@ -169,4 +170,7 @@ html {
       margin-right: 0;
     }
   }
-  
+  .todo-btn{
+    font-size: 10px;
+    
+  }

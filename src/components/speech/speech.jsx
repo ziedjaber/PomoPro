@@ -29,8 +29,8 @@ const Speech = () =>{
 
                 <div className="btn-styleSpeech">
 
-                    <button onClick={setCopied} className="buttonSpeech">
-                        {isCopied ? 'Copied!' : 'Copy to clipboard'}
+                    <button  onClick={setCopied} className="buttonSpeech">
+                        {isCopied ? 'Copied!' : 'Copy Text'}
                     </button>
                     <button onClick={startListening} className="buttonSpeech">Start Listening</button>
                     <button onClick={SpeechRecognition.stopListening} className="buttonSpeech">Stop Listening</button>

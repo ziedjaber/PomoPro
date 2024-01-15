@@ -10,6 +10,8 @@ import Login from "../auth/Login";
 import Signup from "../auth/signup";
 import './PromoPro.css';
 import Speech from "../speech/speech";
+import Audioplayer from "../musicplayer/audioplayer";
+
 const Pomofocus = () => {
   const navigate = useNavigate();
   const [showLogin, setShowLogin] = useState(false);
@@ -44,6 +46,9 @@ const Pomofocus = () => {
                 <TodoWrapper />
                 <div className="speech">
                 <Speech />
+                </div>
+                <div id="music">
+                <Audioplayer/>
                 </div>
               </div>
             }
